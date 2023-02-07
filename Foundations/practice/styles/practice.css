@@ -1,0 +1,45 @@
+/* CSS for the practice_css.html */
+
+/* we use the HTML element because it is the root element of our document. Some properties (like font) are inherited by their parents */
+html{
+	font-family: Arial, sans-serif;
+	/* the font(s) you would like to use, and the last font should be a generic font */
+	font-size: 20px;
+}
+
+h1{
+	color: #396195;
+
+	border-bottom: 2px solid #396195;
+	/* same as writing
+	border-bottom-width: 2;
+	border-bottom-style: solid;
+	border-bottom-color: #396195;
+	*/
+	font-family: 'Times New Roman', Times, serif;
+	/* quotes used before there are spaces in the font-family name */
+}
+
+/* period = selector is a class name */
+.job-title{
+	color: #969696;
+	font-weight:bold;
+}
+
+a{
+	color: #f47055; /* orange color */
+}
+
+p{
+	line-height: 1.5em;
+	/* em - size relaive to the closest parent with a fixed size
+	We use it here so that if we change our font size, the line height will always be 1.5 times the font size */
+}
+
+li {
+	margin-top: 5px;	
+	background-color: lime;
+}
+span{
+	background-color: goldenrod;
+}
