@@ -10,3 +10,6 @@ Selectors, basic properties, and property values
 
 ### Day 6 - HTML + CSS
 Updated html and practiced css
+
+
+### Day 7 - Git
