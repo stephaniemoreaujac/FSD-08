@@ -7,6 +7,7 @@
 
 h2 {
 	color: lightblue;
+	font-size: 1.25em;
 }
 
 
@@ -26,6 +27,7 @@ h2 {
 .txtWhite {
 	color: white;
 }
+.txtGreen{ color: green; }
 
 /* .txtRed{
 	color: red;
