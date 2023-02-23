@@ -99,5 +99,46 @@ public class Day2 {
 		fullName += "Moreau";
 		
 		//System.out.println(fullName);
+		
+// ACTUALLY DONE ON DAY 3
+		
+		/*
+		// difference between ++number and number++;
+
+		int a = 5;	// a = 5
+		int b = 5;	// b = 5
+		
+		a++;	// a = 6
+		++b;	// b = 6
+		
+		int c = a++;	// c = 6, a = 7
+		int d = ++b;	// b = 7, d = 7
+		
+		
+		System.out.print(a++);	// output 7, a = 8
+		*/
+		
+		int z = 4;
+		
+		double x = z;
+		System.out.println(x);
+		
+		// int y = x; // TYPE MISMATCH ERROR
+		int y = (int) x;
+		System.out.println(y);
+
+		
+		String s = "77";
+		int si = Integer.parseInt( s );
+		System.out.println(si);	// 77
+		
+		double sd = Double.parseDouble( s );
+		System.out.println(sd); // 77.0
+		
+		String s2 = "38.6";
+		System.out.println( Double.parseDouble( s2 ) ); //38.6
+		// System.out.println( Integer.parseInt( s2 ) ); //ERROR
+		
+		
 	}
 }
