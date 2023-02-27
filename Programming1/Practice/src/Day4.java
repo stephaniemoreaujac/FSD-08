@@ -28,11 +28,11 @@ public class Day4 {
 		int c = (int) (r * max);
 		System.out.println("random with max is " + c);
 		
-		// Random integer between a min(inc) and a max(i) value
+		// Random integer between a min(inc) and a max(inc) value
 		int min = 10;
-		double tmp = r * (max-min);
+		double tmp = r * ((max+1)-min);
 		int d = (int) (min + tmp);
-//		int e = (int) (min + (r * (max-min))); // same thing in 1 line
+//		int e = (int) (min + (r * ((max+1)-min))); // same thing in 1 line
 		System.out.println("random with min/max is " + d);
 */
 		// char
