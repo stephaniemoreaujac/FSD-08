@@ -47,7 +47,7 @@ public class Day4 {
 		
 		// get last charater of a string
 		String c = "Bicycle";
-		char lastChar = c.charAt( c.length() ); 
+		char lastChar = c.charAt( c.length()-1 ); 
 		System.out.println("last char " + lastChar );
 	}
 }
