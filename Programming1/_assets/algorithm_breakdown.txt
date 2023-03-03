@@ -1,0 +1,12 @@
+FIND SMALLEST NUMBER IN A SET OF NUMBERS
+1. Get numbers to compare
+	1.1 Ask user for numbers
+2. Compare to find smallest
+	2.1 Get list of all numbers
+	2.2 Set first number as smallest
+	2.3 Compare all numbers to smallest
+		2.3.1 loop through numbers 
+		2.3.2 if number is smaller than smallest, then set as new smallest
+	2.4 return smallest number
+3. Print results
+	3.1 output smallest number
